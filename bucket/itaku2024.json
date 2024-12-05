@@ -7,5 +7,11 @@
     "depends": [
         "python"
     ],
-    "post_install": "pip install --upgrade streamlit \"anthropic[bedrock]\" python-dotenv"
+    "post_install": [
+        "cursor --install-extension ms-ceintl.vscode-language-pack-ja",
+        "cursor --install-extension ms-python.python",
+        "cursor --install-extension ms-python.debugpy",
+        "cursor --install-extension ms-python.vscode-pylance",
+        "pip install --upgrade streamlit \"anthropic[bedrock]\" python-dotenv"
+    ]
 }
