@@ -3,7 +3,7 @@
     "description": "委託事業講座の準備.",
     "homepage": "https://i-seifu.jp/",
     "url": "https://i-seifu.jp/wp-content/themes/i-seifu/img/common/logo_white.svg",
-    "hash": "sha512:f8d22b2da51437611ceb6ca068471df874dc0dc2ad4f32707344facda9d5b27d2bbdbca1978add7a9c600c080b9e19c245bf32d15e8644bfd80d266f6c12bf65",
+    "hash": "sha512:507d9dfbdd7683a63ba0daf51221f8abbfc0fe9be85fb8a00c8a68b16cce3dabe1c2054e768a5ff5029cdfe518eafc7493e17593d35767025955091389bb0476",
     "depends": [
         "python"
     ],
