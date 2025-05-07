@@ -1,0 +1,37 @@
+{
+    "version": "0.9.3",
+    "description": "Desktop application for Claude.ai",
+    "homepage": "https://claude.ai",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/AnthropicClaude-0.9.3-full.nupkg",
+            "hash": "f5a8b62a2cc0348d327620ca10b43778495b0091a77393f376ca4313041b951c"
+        },
+        "arm64": {
+            "url": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-arm64/AnthropicClaude-0.9.3-full.nupkg",
+            "hash": "c3126c18f481f08ff38c1fad5b45f422282583f24f353e8c7d4e98889ff4d957"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "claude.exe",
+            "Claude Desktop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest/update_manifest.json",
+        "regex": "/release[._-]v?(\\d+(?:\\.\\d+)+)[._-]artifact"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/AnthropicClaude-$version-full.nupkg"
+            },
+            "arm64": {
+                "url": "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-arm64/AnthropicClaude-$version-full.nupkg"
+            }
+        }
+    }
+}
