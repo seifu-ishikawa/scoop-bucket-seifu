@@ -7,8 +7,9 @@
     "depends": [
         "nodejs",
         "github",
+        "claude",
         "notepadplusplus"
     ],
-    "post_install"; "npm install -g @modelcontextprotocol/server-filesystem",
+    "post_install": "npm install -g @modelcontextprotocol/server-filesystem",
     "notes": "See: https://qiita.com/amatatsuk/items/4303f6bedd441c8a2588"
 }
